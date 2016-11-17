@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/state_item"
+    android:gravity="center_vertical"
+    android:layout_centerVertical="true"
+    android:layout_height="48dp">
+
+
+    <ImageView
+        android:src="@drawable/ic_stogare"
+        android:id="@+id/imgProfile"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toEndOf="@id/imgProfile"
+        android:layout_toRightOf="@+id/imgProfile"
+        android:id="@+id/txtProfile"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:textColor="#ababab"
+        android:textSize="16sp"
+        android:text="Storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

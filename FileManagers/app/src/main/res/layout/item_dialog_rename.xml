@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="Rename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/txtName"
+        android:id="@+id/edtRename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="@android:color/holo_blue_light"
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtRename"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/btnSave"
+        android:layout_toStartOf="@+id/btnSave"
+        android:background="@drawable/state_item_dialog"
+        android:text="Cancel" />
+
+    <Button
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/state_item_dialog"
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtRename"
+        android:layout_marginTop="16dp"
+        android:text="Save" />
+
+</RelativeLayout>

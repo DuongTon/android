@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#fff"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="96dp"
+        android:paddingEnd="96dp"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="@drawable/state_item_dialog"
+            android:id="@+id/txtNewFolder"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="New Folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:background="@drawable/state_item_dialog"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtSort"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:background="@drawable/state_item_dialog"
+            android:enabled="false"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtPaste"
+            android:textSize="16sp"
+            android:textColor="#ababab"
+            android:text="Paste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+</RelativeLayout>

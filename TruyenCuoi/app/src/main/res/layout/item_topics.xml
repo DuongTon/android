@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/state_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_marginStart="16dp"
+            android:id="@+id/img_topic"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:padding="12dp"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#2a7ada"
+            android:src="@drawable/ic_vova"
+            android:layout_marginLeft="16dp" />
+
+        <TextView
+            android:layout_toEndOf="@+id/img_topic"
+            android:layout_marginStart="16dp"
+            android:textColor="#fff"
+            android:id="@+id/txt_topics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/img_topic"
+            android:layout_marginLeft="16dp" />
+
+        <ImageView
+            android:background="@drawable/shap_ic_next"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogLevelMoney">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_level_money_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_level_money_exit</item>
+    </style>
+
+    <style name="DialogAnim">
+        <item name="android:windowEnterAnimation">@anim/setanim_enter</item>
+
+        <item name="android:windowExitAnimation">@anim/setanim_exit</item>
+    </style>
+    <style name="AudienceDialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowAnimationStyle">@style/AudienceDialogAnimation</item>
+    </style>
+
+    <style name="AudienceDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_call_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_call_exit</item>
+    </style>
+
+    <style name="Dialog_Call_Help">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_call_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_call_exit</item>
+    </style>
+
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">File Manager</string>
+    <string name="nofile">No Files</string>
+</resources>

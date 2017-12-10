@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgThaiKiItem"
+            android:layout_width="172dp"
+            android:layout_height="36dp"
+            android:background="@drawable/background_embe" />
+        <TextView
+            android:padding="12dp"
+            android:background="@drawable/shape_background"
+            android:id="@+id/txtNameThaiKiItem"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Em bé vẫn chỉ là một tia sáng le lói trong mắt
+            Thật khó để biết chính xác."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

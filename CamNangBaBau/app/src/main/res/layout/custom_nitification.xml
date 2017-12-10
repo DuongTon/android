@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:id="@+id/iv_cover"
+        android:layout_width="128dp"
+        android:layout_height="128dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="128dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:text="Em gái mưa"
+                android:id="@+id/txt_song_title"
+                android:singleLine="true"
+                android:textSize="16sp"
+                android:textColor="#2b87ff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Hương Tràm"
+                android:textSize="14sp"
+                android:textColor="#6391fc"
+                android:padding="4dp"
+                android:id="@+id/txt_song_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_privious"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/ic_next_blue"
+                android:tint="#72727272" />
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="4dp"
+               android:src="@drawable/ic_play_blue"
+                android:tint="#72727272" />
+            <ImageView
+                android:id="@+id/img_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/ic_previous_blue"
+                android:tint="#72727272" />
+
+            <ImageView
+                android:id="@+id/img_close"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/ic_close_blue"
+                android:tint="#72727272" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

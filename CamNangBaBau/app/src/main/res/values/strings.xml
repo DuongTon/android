@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bà Bầu</string>
+    <string name="title">Lịch khám thai định kỳ</string>
+    <string name="title_activity_nghe_nhac">NgheNhacActivity</string>
+    <string name="cd_play">Play and pause</string>
+    <string name="cd_next">Skip forwards</string>
+</resources>

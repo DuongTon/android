@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/toolbar"/>
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:id="@+id/imgWeekThaiKi"
+        android:src="@drawable/week_1"
+        android:layout_width="match_parent"
+        android:layout_height="156dp" />
+
+    <ListView
+        android:divider="@null"
+        android:layout_margin="12dp"
+        android:id="@+id/listViewItemThaiKi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.duongton.camnangbabau">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DanhMucActivity" />
+        <activity android:name=".activity.ThaiKyActivity" />
+        <activity android:name=".activity.ThaiKiItemsActivity" />
+        <activity android:name=".activity.AnUongActivity" />
+        <activity android:name=".activity.AnUongItemActivity" />
+        <activity android:name=".activity.TiemPhongActivity" />
+        <activity android:name=".activity.KhamThaiActivity" />
+        <activity android:name=".activity.CanMuaCanLamActivity" />
+        <activity android:name=".activity.DatTenActivity" />
+        <activity android:name=".activity.DocTruyenActivity" />
+        <activity android:name=".activity.DocTruyenItemActivity" />
+        <activity android:name=".activity.DocTruyenNoiDungActivity" />
+        <activity android:name=".activity.AmNhacActivity" />
+        <activity android:name=".activity.HoiDapActivity" />
+        <activity android:name=".activity.HoiDapNoiDungActivity" />
+        <activity android:name=".activity.LapLichActivity" />
+
+        <receiver
+            android:name=".receive.MyAlarmReceiver"
+            android:process=":remote" />
+
+        <service
+            android:name=".service.MyTestService"
+            android:exported="false" />
+        <service android:name=".service.NotificationServiceMusic"/>
+
+        <activity android:name=".activity.NgheNhacActivity"></activity>
+    </application>
+
+</manifest>

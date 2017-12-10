@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/background_dialog_datepicker"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="86dp"
+            android:src="@drawable/chongio"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <TimePicker
+               android:layout_marginStart="30dp"
+               android:layout_marginLeft="30dp"
+               android:timePickerMode="spinner"
+               android:id="@+id/time_picker"
+               android:layout_width="match_parent"
+               android:layout_height="136dp">
+
+           </TimePicker>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_select"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/state_bacground_menu_select"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+           <LinearLayout
+               android:gravity="center"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content">
+               <Button
+                   android:id="@+id/btn_cancel"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:background="@drawable/state_bacground_menu_cancel"
+                   android:layout_width="70dp"
+                   android:layout_height="40dp" />
+           </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

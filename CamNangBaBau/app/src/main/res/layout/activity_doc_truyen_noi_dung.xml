@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:src="@drawable/image_ketruyen"
+        android:layout_width="match_parent"
+        android:layout_height="172dp" />
+    <LinearLayout
+        android:layout_margin="12dp"
+        android:background="@drawable/shape_background"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTenTruyen"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/grey"
+            android:padding="9dp"
+            android:gravity="center"
+            android:textColor="@color/pink"
+            android:textSize="18sp"
+            android:text="Nguồn gốc cửa sự vật"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:divider="@null"
+            android:id="@+id/listViewItemNoiDungTruyen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>
